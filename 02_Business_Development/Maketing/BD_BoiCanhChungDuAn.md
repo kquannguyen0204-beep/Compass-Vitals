@@ -68,8 +68,10 @@ Dịch vụ cốt lõi (10 dịch vụ):
 10. Lab_Imaging_Management (Đặt xét nghiệm & hình ảnh): Hệ thống giúp tìm cơ sở xét nghiệm phù hợp, gửi đơn xét nghiệm điện tử, kết quả tự động cập nhật vào hồ sơ y tế
 
 Tính năng hỗ trợ (đi kèm nền tảng):
-- Onboarding (Hồ sơ sức khỏe toàn diện): Lưu trữ toàn bộ lịch sử bệnh, thuốc, xét nghiệm, đánh giá tình trạng sức khỏe và các đề xuất, khuyến nghị của bác sĩ
+- Onboarding (Hồ sơ sức khỏe điện tử): Lưu trữ toàn bộ lịch sử bệnh, thuốc, xét nghiệm, đánh giá tình trạng sức khỏe và các đề xuất, khuyến nghị của bác sĩ
 - Medical Library (Thư viện y khoa): 400+ bài viết song ngữ Việt-Anh về bệnh tật, cách phòng tránh, dinh dưỡng
+- Account Registration (Đăng ký tài khoản): Tạo tài khoản nhanh chóng và bảo mật với HIPAA
+- Renewal (Gia hạn tự động): tự động gia hạn gói dịch vụ để đảm bảo quá trình sử dụng không bị gián đoạn
 
 ---
 
@@ -106,4 +108,3 @@ Khối Business Development chịu trách nhiệm:
 - Đây là bối cảnh nền tảng chuẩn dùng cho toàn bộ Agent BD nội bộ
 - Mọi phân tích Sales, Marketing, GTM, Pricing, Positioning phải bám theo bối cảnh này
 - Không thay đổi định nghĩa mô hình kinh doanh, cấu trúc vận hành hoặc định vị sản phẩm nếu không có cập nhật governance chính thức
-
