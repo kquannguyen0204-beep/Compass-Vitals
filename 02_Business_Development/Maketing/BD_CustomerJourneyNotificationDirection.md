@@ -1,114 +1,22 @@
-# BD_CustomerJourneyNotificationDirection
+# BD Customer Journey Notification Direction
 
----
-
-## Nội dung chi tiết reminder+teas
+## Sheet: Nội dung chi tiết reminder+teas
 
 | Reminder No. | Details | Timeline dự kiến | Đích đến | Platform |  |  |
-|---|---|---|---|---|---|---|
+| --- | --- | --- | --- | --- | --- | --- |
 | Phase 1 Onboarding: Từ đăng ký tài khoản thành công đến hoàn thiện onboarding |  |  |  |  | In-app | Email |
-| #1 | Bạn vừa mở khóa "bác sĩ riêng" 24/7 nói tiếng Việt!<br>  <br>  ---<br>  <br>  🌟 BẠN CÓ THỂ BẮT ĐẦU NGAY:<br>  <br>  💬 HỎI BÁC SĨ BẤT CỨ ĐÂU<br>  → "Con tôi sốt 38.5°C, có sao không?"<br>  → "Thuốc này uống trước hay sau ăn?"<br>  → "Tôi bị đau đầu từ sáng, phải làm gì?"<br>  <br>  👉 Đặt câu hỏi đầu tiên ngay! | Rule:<br>- Khách chưa điền block 1<br>- 24h sau khi đăng ký thành công | Dịch vụ 24/7 | In-app | 8 | 6 |
+| #1 | Bạn vừa mở khóa "bác sĩ riêng" 24/7 nói tiếng Việt!<br>  <br>  ---<br>  <br>  🌟 BẠN CÓ THỂ BẮT ĐẦU NGAY:<br>  <br>  💬 HỎI BÁC SĨ BẤT CỨ ĐÂU<br>  → "Con tôi sốt 38.5°C, có sao không?"<br>  → "Thuốc này uống trước hay sau ăn?"<br>  → "Tôi bị đau đầu từ sáng, phải làm gì?"<br>  <br>  👉 Đặt câu hỏi đầu tiên ngay! | Rule:<br>- Khách chưa điền block 1<br>- 24h sau khi đăng ký thành công<br> | Dịch vụ 24/7 | In-app | 8 | 6 |
 | #2 | Bạn đang tiết kiệm được hàng trăm, thậm chí hàng ngàn $ mỗi năm<br><br>Sử dụng Compass Vitals, bạn sẽ không còn mất:<br>✅ Phí ER với những triệu chứng không cần thiết<br>✅ Chi phí di chuyển đến phòng khám vì đã có thể chat hoặc video call với bác sĩ ngay trên app<br>✅ Chi phí cho các dịch vụ rà soát thuốc vì bạn đang được miễn phí 1 lần<br><br>Đang được miễn phí, ngại gì không dùng ngay? Điền thông tin y khoa cơ bản để mở khóa các dịch vụ ngay | Rule:<br>- Khách chưa điền block 1<br>- 48h sau khi đăng ký thành công<br>- Khách có điền email | Onboarding block 1 | Email |  |  |
 | #3 | 😰 Bạn có gặp tình huống này không?<br>  <br>  ❌ "TÔI KHÔNG BIẾT KHI NÀO CẦN ĐI KHÁM"<br>  <br>  Khi gặp 1 hoặc một vài triệu chứng không rõ ràng như đau đầu, mệt mỏi kéo dài, tiểu đêm, mắt mờ... Có phải bạn hay tự nói là không có gì nghiêm trọng, chắc chỉ do thiếu ngủ? Hoặc chờ xem có nặng không rồi mới đi khám? Cũng có thể bạn sẽ lên search Google hoặc muốn đi khám nhưng chẳng biết nên tìm PCP hay đi urgent care?<br>  <br>  ✅ Với Compass Vitals, bạn có thể hỏi ngay qua chat để được bác sĩ chẩn đoán và hướng dẫn xử lý::<br>  → Kê đơn thuốc (nếu phù hợp)<br>  → Chỉ định xét nghiệm/chẩn đoán hình ảnh<br>  → Hướng dẫn theo dõi tại nhà hoặc chuyển tuyến nếu cần<br>  <br>  💡Trước khi hỏi bác sĩ, hãy cung cấp thêm thông tin y khoa để bác sĩ có thể chẩn đoán chính xác và toàn diện hơn<br>  <br>  👉 Bắt đầu hồ sơ ngay | Rule:<br>- Khách chưa điền block 1<br>- 5 ngày sau khi đăng ký thành công | Onboarding block 1 | In-app |  |  |
 | #4 | 🇻🇳 Ngại đi khám vì không giỏi tiếng Anh?<br><br>Giờ đây bạn không cần phải lo lắng về việc diễn đạt triệu chứng của mình nữa, vì Compass Vitals luôn có bác sĩ nói tiếng Việt sẵn sàng lắng nghe bạn.<br><br>Từ những cơn đau nhỏ đến bệnh mãn tính, từ quản lý đơn thuốc đến lối sống hàng ngày, bạn đều có thể chia sẻ bằng chính ngôn ngữ của mình.<br><br>Việc chăm sóc sức khỏe và thăm khám sẽ trở nên dễ dàng và thoải mái hơn. Thử kết nối với bác sĩ ngay👉 | Rule:<br>- Khách chưa điền block 1<br>- 10 ngày sau khi đăng ký thành công | Dịch vụ 24/7 | In-app |  |  |
 | #5 | 🚨 🎁 Bạn đang bỏ lỡ những gì?<br>  <br>  [Tên] ơi, trong khi bạn chưa hoàn thành hồ sơ...<br>  <br>  ---<br>  <br>  📊 KHÁCH HÀNG KHÁC ĐANG NHẬN ĐƯỢC:<br>  <br>  ❌ Được bác sĩ chẩn đoán chính xác nguyên nhân triệu chứng và tình trạng sức khỏe<br>  ❌ Có hồ sơ sức khỏe toàn diện, chấm điểm sức khỏe, đánh giá 8 hệ cơ quan<br>  ❌ Nhận được action plan từ bác sĩ để cải thiện ngay vấn đề sức khỏe đang gặp phải<br>  ❌ Được bác sĩ rà soát lại các đơn thuốc đang sử dụng, đánh giá hiệu quả và phát hiện nguy cơ xảy ra tương tác thuốc<br><br>  🎯 HÃY BẮT ĐẦU HÔM NAY!<br>  <br>  Chỉ 5 phút để:<br>  ✅ Kích hoạt đầy đủ tài khoản<br>  ✅ Sẵn sàng cho mọi tình huống khẩn cấp<br>  ✅ Có "bác sĩ riêng" nói tiếng Việt 24/7<br>  <br>  👉 Hoàn thành ngay - Đừng chần chừ thêm! | Rule:<br>- Khách chưa điền block 1<br>- 14 ngày sau khi đăng ký thành công<br>- Khách có điền email | Onboarding block 1 | Email |  |  |
-| #6 | 👨‍👩‍👧‍👦 Nếu bố mẹ từng mắc bệnh tim, tiểu đường hay huyết áp,<br>bạn có bao giờ tự hỏi: điều đó có ảnh hưởng đến mình không?<br><br>Cơ thể bạn có thể đang mang những “dấu hiệu” từ di truyền mà bạn chưa nhìn thấy.<br><br>Compass Vitals giúp bác sĩ xem toàn cảnh sức khỏe và nguy cơ của bạn.<br><br>Chỉ 5 phút điền thông tin, hiểu rõ về nguy cơ di truyền, mở khóa hồ sơ ngay | Rule:<br>- Khách chưa điền block 1<br>- 20 ngày sau khi đăng ký thành công | Onboarding block 1 | In-app |  |  |
-| #7 | Liệu có căn bệnh nào đang “ngủ đông” trong cơ thể bạn không?<br><br>Chỉ 30 phút, có ngay câu trả lời<br><br>Hoàn thành các thông tin y khoa và bạn sẽ nhận được một bản báo cáo kết quả đầy đủ, toàn diện và chi tiết:<br>✅ Phát hiện những nguy cơ bệnh tiềm ẩn<br>✅ Chấm điểm sức khỏe và các hệ cơ quan<br>✅ Đánh giá từng chỉ số để phát hiện ra vấn đề sức khỏe<br>✅ Action plan ngắn hạn từ bác sĩ Compass Vitals sẽ giúp bạn cải thiện kết quả ngay<br><br>👉 Bắt đầu điền thông tin | Rule:<br>- Khách chưa điền block 1<br>- 30 ngày sau khi đăng ký thành công<br>- Khách có điền email | Onboarding block 1 | Email |  |  |
+| #6 | 👨‍👩‍👧‍👦 Nếu bố mẹ từng mắc bệnh tim, tiểu đường hay huyết áp,<br>bạn có bao giờ tự hỏi: điều đó có ảnh hưởng đến mình không?<br><br>Cơ thể bạn có thể đang mang những “dấu hiệu” từ di truyền mà bạn chưa nhìn thấy.<br><br>Compass Vitals giúp bác sĩ xem toàn cảnh sức khỏe và nguy cơ của bạn.<br><br>Chỉ 5 phút điền thông tin, hiểu rõ về nguy cơ di truyền, mở khóa hồ sơ ngay<br> | Rule:<br>- Khách chưa điền block 1<br>- 20 ngày sau khi đăng ký thành công | Onboarding block 1 | In-app |  |  |
+| #7 | Liệu có căn bệnh nào đang “ngủ đông” trong cơ thể bạn không?<br><br>Chỉ 30 phút, có ngay câu trả lời<br><br>Hoàn thành các thông tin y khoa và bạn sẽ nhận được một bản báo cáo kết quả đầy đủ, toàn diện và chi tiết:<br>✅ Phát hiện những nguy cơ bệnh tiềm ẩn<br>✅ Chấm điểm sức khỏe và các hệ cơ quan<br>✅ Đánh giá từng chỉ số để phát hiện ra vấn đề sức khỏe<br>✅ Action plan ngắn hạn từ bác sĩ Compass Vitals sẽ giúp bạn cải thiện kết quả ngay<br><br>👉 Bắt đầu điền thông tin<br> | Rule:<br>- Khách chưa điền block 1<br>- 30 ngày sau khi đăng ký thành công<br>- Khách có điền email | Onboarding block 1 | Email |  |  |
 | Teasing về dịch vụ, điều hướng về các trang dịch vụ -> hệ thống nhận diện các block còn thiếu phù hợp để khách hàng điền |  |  |  |  |  |  |
 | #8 | 🤕 Đau đầu, đau họng, mệt mỏi hay đau lưng kéo dài?<br>Đừng để triệu chứng khiến bạn phải đoán mò hoặc lo lắng.<br><br>Chỉ cần mô tả những gì bạn đang cảm thấy trong app.<br><br>Bác sĩ Compass Vitals sẽ giúp bạn hiểu nguyên nhân có thể đến từ đâu và hướng dẫn cách xử lý nhanh, an toàn ngay lúc này.<br><br>Thử nhập triệu chứng ngay | Rule:<br>- Khách chưa hoàn thành thông tin required onboarding<br>- 5 ngày sau khi hoàn thành onboarding 1 | Dịch vụ 24/7 | In-app |  |  |
-| #9 | 🌟 Đã có 2,847 người Việt thay đổi cuộc sống trong tháng này!<br>  <br> 2,847 người Việt đã hoàn thành hồ sơ y tế, và đây là những gì họ phát hiện ra:<br><br>📍 #1: Thiếu Vitamin D (74% người được kiểm tra)<br>📍 #2: Tiền Tiểu Đường (41% người được kiểm tra)<br>📍 #3: Cao Huyết Áp Ẩn (38% người được kiểm tra)<br><br>Tất cả bệnh lý trên đều được phát hiện chỉ sau khi update đầy đủ hồ sơ y tế. Hãy để Compass Vitals giúp bạn chấm điểm sức khỏe của mình ngay!<br><br>Tiếp tục hoàn thành hồ sơ y tế 👉 | Rule:<br>- Khách chưa hoàn thành thông tin required onboarding<br>- 10 ngày sau khi hoàn thành onboarding 1<br>- Khách có điền email | Onboarding | Email |  |  |
-| #10 | Không chỉ là nơi lưu trữ thông tin sức khỏe, hồ sơ y tế của bạn có thể nhận được:<br><br>✅ Bước tranh toàn diện về sức khỏe, chấm điểm sức khỏe và tình trạng các hệ cơ quan, dự đoán nguy cơ bệnh tiềm ần<br>✅ Rà soát toàn diện danh sách thuốc đang dùng, phát hiện những tương tác bất thường để đảm bảo hiệu quả tốt nhất khi dùng thuốc<br>✅ Kế hoạch hành động ngắn hạn một cách chi tiết giúp bạn cải thiện ngay những chỉ số “chưa đẹp” trong hồ sơ sức khỏe<br><br>Chỉ còn vài thông tin còn thiếu, bổ sung ngay để mở khóa hồ sơ y tế toàn diện 👉 | Rule:<br>- Khách chưa hoàn thành thông tin required onboarding<br>- 20 ngày sau khi hoàn thành onboarding 1 | Onboarding | In-app |  |  |
+| #9 | 🌟 Đã có 2,847 người Việt thay đổi cuộc sống trong tháng này!<br>  <br> 2,847 người Việt đã hoàn thành hồ sơ y tế, và đây là những gì họ phát hiện ra:<br><br>📍 #1: Thiếu Vitamin D (74% người được kiểm tra)<br>📍 #2: Tiền Tiểu Đường (41% người được kiểm tra)<br>📍 #3: Cao Huyết Áp Ẩn (38% người được kiểm tra)<br><br>Tất cả bệnh lý trên đều được phát hiện chỉ sau khi update đầy đủ hồ sơ y tế. Hãy để Compass Vitals giúp bạn chấm điểm sức khỏe của mình ngay!<br><br>Tiếp tục hoàn thành hồ sơ y tế 👉<br> | Rule:<br>- Khách chưa hoàn thành thông tin required onboarding<br>- 10 ngày sau khi hoàn thành onboarding 1<br>- Khách có điền email | Onboarding | Email |  |  |
+| #10 | Không chỉ là nơi lưu trữ thông tin sức khỏe, hồ sơ y tế của bạn có thể nhận được:<br><br>✅ Bước tranh toàn diện về sức khỏe, chấm điểm sức khỏe và tình trạng các hệ cơ quan, dự đoán nguy cơ bệnh tiềm ần<br>✅ Rà soát toàn diện danh sách thuốc đang dùng, phát hiện những tương tác bất thường để đảm bảo hiệu quả tốt nhất khi dùng thuốc<br>✅ Kế hoạch hành động ngắn hạn một cách chi tiết giúp bạn cải thiện ngay những chỉ số “chưa đẹp” trong hồ sơ sức khỏe<br><br>Chỉ còn vài thông tin còn thiếu, bổ sung ngay để mở khóa hồ sơ y tế toàn diện 👉<br> | Rule:<br>- Khách chưa hoàn thành thông tin required onboarding<br>- 20 ngày sau khi hoàn thành onboarding 1 | Onboarding | In-app |  |  |
 | Phase 2 Tái ký: Từ Health Overview đến mua/gia hạn dịch vụ thành công |  |  |  |  |  |  |
 | #15 | 💎 CÁC DỊCH VỤ ĐÃ SẴN SÀNG ĐỢI BẠN SỬ DỤNG (GÓI TRIAL):<br>  <br>  📚 Medical Library (400+ chủ đề song ngữ Việt-Anh)<br>     → Tìm hiểu về bệnh, thuốc, dinh dưỡng<br>  <br>  💬 Nhắn tin tư vấn nhanh không giới hạn<br>     → Hỏi bất cứ lúc nào về thuốc men, triệu chứng, dinh dưỡng, chẩn đoán..., chatbot trả lời ngay<br>  <br>  🚑 Tư vấn cấp tính 24/7 (< 2 giờ)<br>     → Khi có triệu chứng bệnh đột ngột, Compass Vitals sẽ giúp bạn đánh giá tình trạng bệnh và định hướng xử lý phù hợp<br>  <br>  💊 Đánh giá thuốc toàn diện (CMR) - 1 lần<br>     → Review tất cả thuốc đang dùng<br>     → Phát hiện tương tác, trùng lặp<br>  <br>  🏥 Quản lý bệnh mãn tính (nếu có)<br>     → Theo dõi tiểu đường, cao huyết áp...<br>  <br>  ---<br>  <br>  ⏰ LƯU Ý: GÓI TRIAL HẾT HẠN SAU [X] NGÀY<br>  <br>  Muốn tiếp tục? Nâng cấp lên gói trả phí:<br>  → Care Connect ($49/tháng)<br>  → Care Plus ($119/tháng - có video visits)<br>  → Care Premium ($199/tháng - sử dụng tất cả các dịch vụ không giới hạn, dịch vụ VIP được hỗ trợ toàn diện)<br>  <br>  👉 Sử dụng dịch vụ ngay | Rule:<br>- Khách đã hoàn thành xong các trường thông tin required của onboarding và có health overview<br>- 3 ngày sau khi khách hoàn thành xong onboarding (required fields) | Trang chủ | In-app + Email |  |  |
 | #16 | 💔 Chúng tôi nhớ bạn, [Tên]...<br>  <br>  Đã 10 ngày kể từ khi tài khoản Compass Vitals của bạn hết hạn.<br>  <br>  📊 Tình trạng tài khoản:<br>  • Trạng thái: Suspended<br>  • Ngày hết hạn: [Expiry Date]<br>  <br>  ---<br>  <br>  😔 NHỮNG GÌ BẠN ĐANG BỎ LỠ:<br>  <br>  ❌ Các dịch vụ chăm sóc sức khỏe cần thiết<br>  ❌ Không thể theo dõi các thay đổi của sức khỏe<br>  ❌ Không có kế hoạch chăm sóc phù hợp với tình trạng sức khỏe<br>    <br>  🎁 Ưu đãi đặc biệt CHỈ DÀNH CHO BẠN:<br>  <br>  🎉 KÍCH HOẠT LẠI TRONG 7 NGÀY - NHẬN NGAY:<br>  <br>  ✨ Mã GIẢM 10%, nhập ngay COMEBACK10 khi thanh toán<br>  <br>  ✨ TẶNG 1 Video Visit miễn phí<br>  <br>  👉 Kích hoạt lại ngay - Đừng bỏ lỡ ưu đãi! | Rule:<br>- Khách chưa thanh toán thành công mua gói/gia hạn<br>- 10 ngày sau khi hết hạn gói | Thanh toán | In-app + Email |  |  |
-
-
----
-
-## Rule gửi reminder
-
-| Phase | Reminder | Timeline | Mốc thời gian | Timeline của khách |  | Ngày | Danh sách reminder KH nhận được |
-|---|---|---|---|---|---|---|---|
-| 1 | Reminder 1 | 2026-03-02 00:00:00 | Đăng ký + 1 | Đăng ký tài khoản | 2026-03-01 00:00:00 | 2026-03-02 00:00:00 | Reminder 1 |
-|  | Reminder 2 | 2026-03-03 00:00:00 | Đăng ký + 2 | Onboarding 1 | 2026-03-16 00:00:00 | 2026-03-03 00:00:00 | Reminder 2 |
-|  | Reminder 3 | 2026-03-06 00:00:00 | Đăng ký + 5 | Onboarding 2 | 2026-03-18 00:00:00 | 2026-03-06 00:00:00 | Reminder 3 |
-|  | Reminder 4 | 2026-03-11 00:00:00 | Đăng ký + 10 | Onboarding 3 | 2026-03-19 00:00:00 | 2026-03-11 00:00:00 | Reminder 4 |
-|  | Reminder 5 | 2026-03-15 00:00:00 | Đăng ký + 14 | Onboarding 4 | 2026-03-30 00:00:00 | 2026-03-15 00:00:00 | Reminder 5 |
-|  | Reminder 6 | 2026-03-21 00:00:00 | Đăng ký + 20 | Ngày hết hạn | 2026-04-01 00:00:00 | x | Không có noti |
-|  | Reminder 7 | 2026-03-31 00:00:00 | Đăng ký + 30 | Phiên bản |  | x | Không có noti |
-| 2 | Reminder 8 | 2026-03-17 00:00:00 | Onboarding 1 +1 | Ver 1 | Push điền onboarding 2 | 2026-03-17 00:00:00 | Reminder 8 Ver 1 |
-|  | Reminder 9 | 2026-03-18 00:00:00 | Onboarding 1 +2 | Ver 2 | Push điền onboarding 3 | 2026-03-18 00:00:00 | Reminder 9 Ver 1 |
-|  | Reminder 10 | 2026-03-21 00:00:00 | Onboarding 1 +5 | Ver 3 | Push điền onboarding 4 | 2026-03-21 00:00:00 | Reminder 10 Ver 3 |
-|  | Reminder 11 | 2026-03-26 00:00:00 | Onboarding 1 +10 |  |  | 2026-03-26 00:00:00 | Reminder 11 Ver 3 |
-|  | Reminder 12 | 2026-03-30 00:00:00 | Onboarding 1 + 14 |  |  | 2026-03-30 00:00:00 | Reminder 12 Ver 3 |
-|  | Reminder 13 | 2026-04-05 00:00:00 | Onboarding 1 +20 |  |  | x | Không có noti |
-|  | Reminder 14 | 2026-04-15 00:00:00 | Onboarding 1 +30 |  |  | x | Không có noti |
-| 3 | Reminder 15 | 2026-04-02 00:00:00 | Onboarding 4 + 3 |  |  | 2026-04-02 00:00:00 | Reminder 15 |
-| 4 | Reminder 16 | 2026-04-11 00:00:00 | Ngày hết hạn + 10 |  |  | 2026-04-11 00:00:00 | Reminder 16 |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-|  |  |  |  |  |  | 0 |  |
-
-
----
-
-## Sumary
-
-| Platform | Total hành trình khách hàng | Tỷ lệ | Avg Cost/User/tháng  (trung bình lấy mốc 500 user) $ | Total chi phí $ | Số lượng tối đa/tháng |
-|---|---|---|---|---|---|
-| Email | 8 | 0.4444444444444444 | 1.8 | 9 | 5 |
-| Inapp | 10 | 0.5555555555555556 | 2.7 | 16.200000000000003 | 6 |
-| SMS (hệ thống  cho account/billing/alerts ) |  |  | 0.25 |  |  |
-| TOTAL Communication (Email+app) |  |  | 4.5 |  |  |
-| Player | Email | SMS | In-app | Lý do mix chính |  |
-| HealthTap | 0.45 | 0.1 | 0.45 | AI/async nudges + message/updates trong app; SMS tiết chế (opt-in) (HealthTap) |  |
-| Amwell | 0.6 | 0.25 | 0.15 | B2B2C + visit logistics: email reminder/confirmation, SMS khi đổi lịch/nhắc hẹn (patients.amwell.com) |  |
-| Teladoc Health | 0.35 | 0.25 | 0.4 | Visit + chronic programs: cho chọn nhận text/email/push; app dùng mạnh cho “in-flow” (teladochealth.com) |  |
-| Doctor on Demand | 0.55 | 0.25 | 0.2 | Visit-based + billing/admin: email mạnh (thanh toán/nhắc), SMS chủ yếu reminder (Doctor On Demand) |  |
-| Doctronic | 0.25 | 0.1 | 0.65 | AI-first: trải nghiệm trong app là trung tâm; terms có email/SMS nhưng thường chỉ cho account/billing/alerts (doctronic.ai) |  |
-| One Medical | 0.4 | 0.2 | 0.4 | PCP longitudinal: push/tasks + message continuity; có email confirm & reminder + SMS reminder opt-in (onemedical.com) |  |
-| K Health | 0.3 | 0.15 | 0.55 | AI + async chat: ưu tiên in-app; họ nêu rõ có thể notify bằng email/push/SMS cho visit, tasks, billing (K Health) |  |
-
 
